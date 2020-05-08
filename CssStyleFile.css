@@ -1,9 +1,34 @@
-h1 {
+.Heading {
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(59, 24, 23);
     text-align: center;
     text-shadow: black;
+    width: auto;
+    font-size: 40px;
+    
 }
+
+.SubHeading {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(59, 24, 23);
+    text-align: center;
+    text-shadow: black;
+    width: auto;
+    font-size: 20px;
+    margin-top: -37px;
+    letter-spacing: 2.5px;
+    font-weight:lighter;
+}
+
 
 div {
     margin: 30px;
+}
+
+form {
+     border-width: initial;
+}
+
+img.PostPic {
+    align-content: center;
 }

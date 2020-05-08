@@ -3,14 +3,17 @@
     <head>
         <title> Testing Webpage </title>
         <link rel="stylesheet" href="CssStyleFile.css">
-
         </style>
     </head>
     <body>
-        <div>=
-            <form>
-                <input type="text" placeholder="Enter Text" name="Name Input">
-                <button>Enter</button>
+        <div>
+            <form action="Result.text" target="_blank">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <button type="submit">Submit</button>
+                <button type="submit" formaction="Result.text">Submit to another page</button>
             </form>
 
             <table>
@@ -26,10 +29,11 @@
                 </tr>
             </table>
 
-            <h1 class="Topic Heading"> Helloworld </h1>
-            <h1> This is not tutoring </h1>
-            <img src="Testingpicture.jpg" alt="Tree Image" width="70%">
-
+            <h1 class="Heading"> Helloworld </h1>
+            <h1 class="SubHeading"> This is not tutoring </h1>
+            <div name="PostPic">
+                 <img src="Testingpicture.jpg" alt="Tree Image" width="100%">
+            </div>
             <p>asdasdasdasd</p>
         </div>
     </body>
