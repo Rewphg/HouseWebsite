@@ -2,54 +2,18 @@
 <html>
     <head>
         <title> Login page </title>
-        <style>
-        
-            body {
-                margin: 100px;
-                background-image: url(https://media.idownloadblog.com/wp-content/uploads/2020/02/FrostyBlueByArthur1992aS-Polygon-wallpaper-desktop.png);
-                background-size: cover;
-                background-position: center;
-            }
-            .LoginHead {
-                width: auto;
-                height: auto;
-                top: -20px;
-                font-family: 'Courier New', Courier, monospace;
-                color: azure;
-                text-align: center;
-                border: solid 2px rgb(248, 248, 248);
-                border-radius: 3px;
-                padding: 10px;
-                box-sizing: border-box;
-            }
-
-            .LoginBox {
-                background-color: blanchedalmond;
-                position: absolute;
-                top: 3000px;
-            }
-            .LoginForm {
-                background-color: blanchedalmond;
-                margin: 30px;
-                padding: 30px;
-            }
-
-            .Lable {
-                position: static;
-                padding-top: -10px;
-            }
-
-        </style>
+        <link rel="stylesheet" href="LoginStyle.css">
     </head>
     <body>
         <h1 class="LoginHead"> Login Page </h1>
-    <div class="Loginbox">
-        <form class="LoginForm">
+    <div class="LoginContainer">
+        <img src="UsernameLogo.png" alt="" class="avatar">
+        <form action="Result.php" method="POST" class="FormBox">
             <P class="Lable">Username</P>
-            <input type="text" placeholder="Sam" name="Usernamefill">
+            <input class= "LoginBox" type="text" placeholder="Sam" name="User">
             <p class="Lable">Password</p>
-            <input type="password" placeholder="******" name="Passwordfill">
-            <input type="submit" value="Login">
+            <input class= "LoginBox" type="password" placeholder="******" name="Pass">
+            <input type="submit" value="Login" class="LoginBox">
         </form>
     </div>
     </body>

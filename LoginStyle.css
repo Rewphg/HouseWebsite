@@ -1,0 +1,86 @@
+body {
+    margin: 100px;
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2020/02/FrostyBlueByArthur1992aS-Polygon-wallpaper-desktop.png);
+    background-size: cover;
+    background-position: center;
+}
+.LoginHead {
+    width: auto;
+    height: auto;
+    top: -20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    text-align: center;
+    border: solid 2px rgb(248, 248, 248);
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.avatar {
+    margin-top: -20%;
+    margin-bottom: 0%;
+    width: 30%;
+    height: 30%;
+    border-radius: 40%;
+    transform: translate(120%,0);
+    background-color: white;
+}
+
+.LoginContainer {
+    width: 320px;
+    height: 420px;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: rgb(13, 13, 41);
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Lable {
+    margin: 0;
+    padding: 0 0 4px;
+}
+
+.LoginBox {
+    width: 96%;
+    margin-bottom: 30px;
+}
+
+.LoginBox ,input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: thistle;
+}
+
+.LoginBox ,input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(155, 141, 115);
+    border-radius: 20px;
+}
+
+.LoginBox ,input[type="submit"]:hover
+{
+    cursor: pointer;
+
+}
+
+.LoginBox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkmagenta;
+}
